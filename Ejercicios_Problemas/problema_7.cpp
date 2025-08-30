@@ -1,6 +1,6 @@
 //! En la serie de Fib onacci, cada número es la suma de los 2 anteriores e inicia con 1 y
 //! 1. Ej: 1, 1, 2, 3, 5, 8, ....
-//! Escriba un programa que reciba un número n y halle la suma de to dos los números pares en la serie
+//! Escriba un programa que reciba un número n y halle la suma de todos los números pares en la serie
 //! de Fib onacci menores a n
 
 #include <iostream>
