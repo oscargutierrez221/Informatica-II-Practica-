@@ -6,7 +6,7 @@ using namespace std;
 
 int main() { 
     int n, suma = 0;
-    cout << "Ingrese un numero (N): \n";
+    cout << "Ingrese un numero (N): ";
     cin >> n;
     if (n < 0){
         cout << "Error, el numero debe ser positivo \n";

@@ -8,7 +8,7 @@ int main() {
     int n, suma = 0, digito;
     cout << "Ingrese un numero entero: ";
     cin >> n;
-    int temp = n; 
+    int temp = n;
     while (temp > 0) {
         digito = temp % 10;
         int potencia = 1;

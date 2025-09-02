@@ -8,7 +8,7 @@ int main() {
     int numero, suma = 0;
 
     do {
-        cout << "Ingrese un numero (0 para terminar) : \n";
+        cout << "Ingrese un numero (0 para terminar) : ";
         cin >> numero;
         suma += numero;
     } 

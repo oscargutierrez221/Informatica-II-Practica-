@@ -2,10 +2,11 @@
 
 #include <iostream>
 using namespace std;
+
 int main() {
     int N, i;
     bool esPrimo = true;
-    cout << "Ingrese un numero: " ;
+    cout << "Ingrese un numero: ";
     cin >> N;
     for (i = 2; i <= N / 2; i++) {
         if (N % i == 0) {

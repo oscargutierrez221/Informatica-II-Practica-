@@ -8,7 +8,7 @@ int main() {
     int numero, mayor = 0;
 
     do {
-        cout << "Ingrese un numero (0 para terminar): \n";
+        cout << "Ingrese un numero (0 para terminar): ";
         cin >> numero;
         if (numero > mayor) {
             mayor = numero;

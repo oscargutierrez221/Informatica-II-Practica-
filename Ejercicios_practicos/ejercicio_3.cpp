@@ -4,11 +4,10 @@
 using namespace std;
 
 int main() {
-    int a (0);
-    int b (0);
-    cout << "Ingrese el primer numero: " << endl;
+    int a (0),b (0);
+    cout << "Ingrese el primer numero: ";
     cin >> a;
-    cout << "Ingrese el segundo numero: " << endl;
+    cout << "Ingrese el segundo numero: ";
     cin >> b;
     if (a < b) {
         cout << "El numero mayor es: " << b << endl;
@@ -17,5 +16,5 @@ int main() {
     } else {
         cout << "Los numeros son iguales." << endl; 
     }
-    return 9;
+    return 0;
 }

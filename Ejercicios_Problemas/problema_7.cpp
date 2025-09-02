@@ -12,7 +12,7 @@ int main() {
     cin >> n;
     while (c < n) {
         c = a + b;
-        a - b;
+        a = b;
         b = c;
         if (c % 2 == 0 && c < n) {
             suma += c;

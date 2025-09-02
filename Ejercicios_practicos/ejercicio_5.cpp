@@ -6,9 +6,9 @@ using namespace std;
 
 int main() {
     int a, b;
-    cout << "Ingrese el primer numero (A): \n";
+    cout << "Ingrese el primer numero (A): ";
     cin >> a;
-    cout << "Ingrese el segundo numero (B): \n";
+    cout << "Ingrese el segundo numero (B): ";
     cin >> b;
     if (b == 0 || a == 0){
         cout << "Error, no se puede dividir por cero" << endl;
@@ -16,7 +16,7 @@ int main() {
     }
     else {
         cout << "El resultado de la division A/B con redondeo es: " << (a + b / 2) / b << endl;
-        return  1;}
+        }
     return 0;
     
 }

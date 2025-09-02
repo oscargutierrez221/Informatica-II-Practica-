@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "Ingrese el numero que desea analizar: \n";
+    cout << "Ingrese el numero que desea analizar: ";
     cin >> n;
     cout << "Los divisores de " << n << " son: \n";
     while (n)

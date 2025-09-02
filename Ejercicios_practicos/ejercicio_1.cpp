@@ -5,17 +5,30 @@
 using namespace std;
 
 int main() {
-    int a (0);
-    int b (0);
-    cout << "Ingrese el primer numero (A): \n";
+    int a, b;
+    
+    cout << "Ingrese el primer numero (A): ";
     cin >> a;
-    cout << "Ingrese el segundo numero (B): \n";
-    cin >> b;
-    if (b != 0) {
-        cout << "El residuo de la division A/B es: " << a % b << endl;
-    } else {
-        cout << "Error: Division por cero no es permitida. \n";
+    
+    if (!cin) {
+        cout << "Error: Debe ingresar un numero valido." << endl;
         return 1;
     }
-    return 0;
+    
+    cout << "Ingrese el segundo numero (B): ";
+    cin >> b;
+    
+    if (!cin) {
+        cout << "Error: Debe ingresar un numero valido." << endl;
+        return 1;
     }
+    
+    if (b == 0) {
+        cout << "Error: No se puede dividir por cero." << endl;
+        return 1;
+    }
+    
+    cout << "El residuo de la division " << a << "/" << b << " es: " << a % b << endl;
+    
+    return 0;
+}
