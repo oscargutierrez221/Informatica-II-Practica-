@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
     int min = 0, max = 100, guess;
-    char response;
+    char responde;
 
     cout << "Piensa en un numero entre 0 y 100. \n" ;
     cout << "Usa '<' si mi numero es menor al tuyo. \n";
@@ -20,14 +20,14 @@ int main() {
         guess = min + (max - min) / 2;
         cout << "Tu numero es: " << guess << endl;
         cout << "Es tu numero? (>, <, =): ";
-        cin >> response;
+        cin >> responde;
 
-        if (response == '>') {
+        if (responde == '>') {
             min = guess + 1;
-        } else if (response == '<') {
+        } else if (responde == '<') {
             max = guess - 1;
         }
-    } while (response != '=');
+    } while (responde != '=');
 
     cout << "Tu numero es: " << guess << endl;
 

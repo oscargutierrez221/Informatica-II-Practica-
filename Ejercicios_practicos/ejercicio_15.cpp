@@ -12,7 +12,7 @@ int main() {
         cin >> numero;
         suma += numero;
     } 
-    while (numero != 0);
+    while (numero != 0); 
     cout << "La suma de los numeros ingresados es: " << suma << endl;
     return 0;
 }

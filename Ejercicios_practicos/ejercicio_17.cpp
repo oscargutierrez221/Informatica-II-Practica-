@@ -11,7 +11,7 @@ int main() {
         cout << "Ingrese un numero (0 para terminar): ";
         cin >> numero;
         if (numero > mayor) {
-            mayor = numero;
+            mayor = numero; 
         }
     } 
     while (numero != 0);

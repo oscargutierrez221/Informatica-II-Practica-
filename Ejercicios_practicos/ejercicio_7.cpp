@@ -13,7 +13,7 @@ int main() {
         return 1;
     }
     for (int i = 0; i <= n; i++){ 
-        suma += i;
+        suma += i; 
     }
     cout << "La sumatoria de 0 a " << n << " es: " << suma << endl;
     return 0;
